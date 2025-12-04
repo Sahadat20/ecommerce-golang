@@ -19,7 +19,7 @@ Welcome to the Product Listing React App! This is a full-stack web application b
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/vipullsingh/product-listing-react.git
+   git clone https://github.com/Sahadat20/ecommerce-golang.git
    ```
 
 2. **Navigate to Client and Backend Folders:**
@@ -29,13 +29,12 @@ Welcome to the Product Listing React App! This is a full-stack web application b
    npm install
 
    cd ../backend
-   npm install
+   go mod tidy 
    ```
 3. **Create a Dotenv file (.env) and Paste below code into it:**
 
     ```
     PORT = 5000
-    MONGODB_URL = <place_your_MongoDB_URL>
     ```
 
    This will install the required dependencies for both the frontend and backend.
@@ -46,7 +45,7 @@ Welcome to the Product Listing React App! This is a full-stack web application b
 
    ```bash
    cd backend
-   npm start
+   go run .
    ```
 
    The backend server will run on http://localhost:5000.
@@ -108,8 +107,8 @@ The project is organized into two main folders:
 ## Technologies Used
 
 - Frontend: React
-- Backend: Node.js, Express.js
-- Database: MongoDB
+- Backend: Golang
+- Database: PostgreSQL
 - HTTP Library: Axios
 - Routing: React Router
 - Styling: CSS
